@@ -1,0 +1,78 @@
+/* ===== 웹폰트 ===== */
+@font-face {
+  font-family: 'NexonMaplestory';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff') format('woff');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NexonMaplestory';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  /* 글꼴 */
+  --font-base: 'NexonMaplestory', 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif;
+  --fw-light: 300;
+  --fw-bold: 700;
+  --fs-display-xl: clamp(40px, 7vw, 82px);
+  --fs-display-lg: clamp(32px, 5.5vw, 62px);
+  --fs-display-md: clamp(28px, 4.5vw, 56px);
+  --fs-heading-lg: clamp(24px, 3.5vw, 40px);
+  --fs-heading-sm: 22px;
+  --fs-body-lg: 18px;
+  --fs-button-lg: 18px;
+  --fs-body: 16px;
+  --fs-button: 16px;
+  --fs-small: 14px;
+
+  /* 색 */
+  --color-primary: #5865f2;
+  --color-on-primary: #ffffff;
+  --color-green: #35ed7e;
+  --color-magenta: #ec48bd;
+  --color-link: #00b0f4;
+  --color-canvas: #0a0d3a;
+  --color-surface: #1e2353;
+  --color-surface-onyx: #23272a;
+  --color-black: #000000;
+  --color-ink: #ffffff;
+  --color-ink-dark: #000000;
+  --color-ink-soft: rgba(255, 255, 255, 0.64);
+  --color-ink-faint: rgba(255, 255, 255, 0.36);
+  --color-hairline: rgba(255, 255, 255, 0.12);
+  --gradient-magenta: linear-gradient(135deg, #ec48bd 0%, #a23cd8 55%, #5865f2 100%);
+  --gradient-primary: linear-gradient(135deg, #5865f2 0%, #7a4be6 100%);
+
+  /* 간격 */
+  --space-xxs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 20px;
+  --space-xl: 24px;
+  --space-xxl: 32px;
+  --space-section: 40px;
+  --space-page: clamp(48px, 8vw, 96px);
+
+  /* 모서리 */
+  --radius-xs: 6px;
+  --radius-sm: 12px;
+  --radius-md: 14px;
+  --radius-lg: 16px;
+  --radius-xl: 40px;
+  --radius-pill: 50px;
+  --radius-jumbo: 120px;
+  --radius-full: 9999px;
+
+  /* 그림자·레이아웃·움직임 */
+  --shadow-float: 0 3px 68px rgba(69, 42, 124, 0.35);
+  --container: 1200px;
+  --nav-height: 64px;
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur-fast: 120ms;
+  --dur: 220ms;
+}
